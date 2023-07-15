@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/QUE_CLUB/static/css/main.891cec8e.css",
-    "main.js": "/QUE_CLUB/static/js/main.c8307837.js",
+    "main.js": "/QUE_CLUB/static/js/main.3de316bb.js",
     "static/media/BG.png": "/QUE_CLUB/static/media/BG.48393698930ca26499ed.png",
     "static/media/Inter-Bold.ttf": "/QUE_CLUB/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/img4.jpg": "/QUE_CLUB/static/media/img4.f05b550632759120a853.jpg",
@@ -19,10 +19,10 @@
     "static/media/logo.svg": "/QUE_CLUB/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/QUE_CLUB/index.html",
     "main.891cec8e.css.map": "/QUE_CLUB/static/css/main.891cec8e.css.map",
-    "main.c8307837.js.map": "/QUE_CLUB/static/js/main.c8307837.js.map"
+    "main.3de316bb.js.map": "/QUE_CLUB/static/js/main.3de316bb.js.map"
   },
   "entrypoints": [
     "static/css/main.891cec8e.css",
-    "static/js/main.c8307837.js"
+    "static/js/main.3de316bb.js"
   ]
 }
