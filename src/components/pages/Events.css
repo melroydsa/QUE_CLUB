@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: 'Oswald';
+    src: url("../../../public/Fonts/Oswald/static/Oswald-Bold.ttf");
+}
+.Containerr
+{
+    margin: 150px auto;
+    max-width: 800px;
+}
+.year
+{
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid #b1b1b1;
+    color: palevioletred;
+    font: 'Oswald';
+}

@@ -1,0 +1,57 @@
+.Hero
+{
+    position: relative;
+    display: block;
+    color: white;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    font-family:'Medula';
+    font-size: 100px;
+}
+.Hero .HeroT
+{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* margin-top: 200px; */
+    /* font-size: 200px; */
+    font-family: 'Medula';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    -webkit-text-stroke: 2px  #30D5C8;
+} 
+.Outline
+{
+    color: #30D5C8;
+    outline: white;
+    -webkit-text-stroke: 2px  ;
+    margin-right: 20px;
+}
+.Hero .HeroP
+{
+    width: fit-content;
+    height: fit-content;
+}
+.Hero .HeroP p
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* margin-top: 250px; */
+    display: flex;
+    width: 900px;
+    height: 88px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Medula';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

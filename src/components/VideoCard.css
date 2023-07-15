@@ -1,0 +1,78 @@
+
+.VideoCard
+{
+    display: flex;
+    margin-top: 10px;
+    background-color: black;
+    opacity: 0.7;
+    padding-left: 20px;
+    border-radius: 50px;
+}
+.Thumbnail
+{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.VideoTitle
+{
+    font-family:'Medula';
+    left: 50%;
+    top: 0%;
+    transform: translate(0%,-50%);
+    font-size: 50px;
+    color: #30D5C8;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+.VideoDesc
+{
+    font-family: 'Oswald';
+    left: 50%;
+    top: 0%;
+    width: 500px;
+    transform: translate(4%,-70%);
+    color: white;
+}
+.VideoLink
+{
+    font-family: 'Oswald';
+    left: 50%;
+    top: 0%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 3px solid #30D5C8;
+    padding: 10px 20px;
+    width: fit-content;
+    transform: translate(15%,-100%);
+    color: white;
+    transition: ease-in-out all 0.2s;
+}
+.VideoLink:hover
+{
+    background-color: #30D5C8;
+    color: black;
+}
+/* .VideoLink a
+{
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out all 0.4s;
+}
+.VideoLink a:hover
+{
+    color: black;
+} */
+.line
+{
+  position: relative;
+  margin-top: 10px;
+  height: 2px;
+  width: 100%;
+  background-color: #30D5C8;
+}
