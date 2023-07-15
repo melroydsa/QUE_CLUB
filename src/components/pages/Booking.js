@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import "./Booking.css";
 import { Hero } from '../Hero';
+import BGimg from "../../Images/BG.png"
 
 function Booking() {
     const [selectedButton, setSelectedButton] = useState(null);
@@ -88,6 +89,7 @@ function Booking() {
 
   return (
     <>
+    <img id="imgBG" src={BGimg} alt="Background" />
      <Hero MainTextOut="Book a" MainTextOth="Session" MainTextSize="100px" MainTextMarginTop="20px" />
       <table className="Calendar">
         <tbody>

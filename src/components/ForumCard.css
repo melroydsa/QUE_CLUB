@@ -1,26 +1,12 @@
-body::-webkit-scrollbar {
-    width: 0.5em;
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: transparent;
-  }
 
-@font-face {
-    font-family: 'Oswald';
-    src: url("../../public/Fonts/Inter/static/Inter-Bold.ttf");
-}
-.VideoCard
+.ForumCard
 {
     display: flex;
     margin-top: 10px;
     background-color: black;
     opacity: 0.7;
     padding-left: 20px;
+    height: 200px;
     border-radius: 50px;
 }
 .Thumbnail
@@ -30,7 +16,7 @@ body::-webkit-scrollbar {
     border-radius: 20px;
     margin-top: 20px;
 }
-.VideoTitle
+.ForumTitle
 {
     font-family:'Medula';
     left: 50%;
@@ -45,16 +31,17 @@ body::-webkit-scrollbar {
     justify-content: flex-start;
     margin-left: 15px;
 }
-.VideoDesc
+.ForumDesc
 {
     font-family: 'Oswald';
-    left: 50%;
+    left: 4%;
     top: 0%;
     width: 500px;
+    margin-left: 0;
     transform: translate(4%,-70%);
     color: white;
 }
-.VideoLink
+.ForumLink
 {
     font-family: 'Oswald';
     left: 50%;
@@ -68,18 +55,18 @@ body::-webkit-scrollbar {
     color: white;
     transition: ease-in-out all 0.2s;
 }
-.VideoLink:hover
+.ForumLink:hover
 {
     background-color: #30D5C8;
     color: black;
 }
-/* .VideoLink a
+/* .ForumLink a
 {
     text-decoration: none;
     color: white;
     transition: ease-in-out all 0.4s;
 }
-.VideoLink a:hover
+.ForumLink a:hover
 {
     color: black;
 } */
@@ -91,3 +78,36 @@ body::-webkit-scrollbar {
   width: 100%;
   background-color: #30D5C8;
 }
+.sentence-spacing
+{
+    font-family:'Medula';
+    left: 50%;
+    top: 0%;
+    transform: translate(1%,-270%);
+    font-size: 20px;
+    color: #30D5C8;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    justify-content: flex-start;
+    margin-left: 15px;
+
+
+}
+.spacing::after {
+    font-family:'Medula';
+    left: 50%;
+    top: 0%;
+    transform: translate(1%,-270%);
+    font-size: 20px;
+    color: #30D5C8;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    justify-content: flex-start;
+    margin-left: 15px;
+    content: "\00a0"; /* Add a non-breaking space */
+    margin-left: 20px; /* Adjust the desired space between the sentences */
+  }

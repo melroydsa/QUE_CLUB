@@ -1,0 +1,63 @@
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-top: -50px;
+    padding-bottom: 30px;
+  }
+  .carousel-box {
+    position: relative;
+    height: 300px;
+    width: 700px;
+    border: 2px solid #d2ddd100;
+    border-radius: 5px;
+    overflow:visible;
+  }
+  
+  /* Style for the carousel container */
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Style for the image */
+  .carousel-image {
+    display: block;
+    width: autp;
+    height: 450px; /* Adjust the height value as needed */
+    object-fit: contain;
+    border: 6px solid #30D5C8;
+  }
+  
+  /* Style for the arrow buttons */
+  .carousel-button {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-0%);
+    width: 40px;
+    height: 40px;
+    background-color:rgba(255, 255, 255, 0.771);
+    color: #111010;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Style for the left arrow button */
+  .carousel-button.left {
+    left: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Style for the right arrow button */
+  .carousel-button.right {
+    right: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  .carousel-button.left:hover, .carousel-button.right:hover {
+  background-color: #30D5C8;
+  color: #000000;
+  }

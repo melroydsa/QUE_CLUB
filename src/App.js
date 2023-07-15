@@ -8,6 +8,7 @@ import Booking from "./components/pages/Booking";
 import Resources from "./components/pages/Resouces";
 import Events from "./components/pages/Events";
 import Forum from "./components/pages/Forum"
+import Gallery from "./components/pages/Gallery";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/Events" element={<Events/>} />
           <Route path="/Resources" element={<Resources/>} />
           <Route path="/Forum" element={<Forum/>} />
+          <Route path="/Gallery" element={<Gallery/>} />
         </Routes>
       </Router>
     </>

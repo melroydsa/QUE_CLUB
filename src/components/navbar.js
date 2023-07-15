@@ -29,7 +29,9 @@ function navBar(){
             <Link to = '/Resources' className='Selected'>
                 <li>Resources</li>
             </Link>
-            <li>Gallery</li>
+            <Link to = '/Gallery' className='Selected'>
+                <li>Gallery</li>
+            </Link>
             
         </ul>
         </nav>
