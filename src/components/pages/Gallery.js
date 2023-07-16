@@ -23,7 +23,7 @@ function Gallery() {
             <i className="fab fa-instagram instagram-icon"></i>
             <a href="https://www.instagram.com/the.queclub/">the.queclub</a>
           </div>
-          <img src={img4} alt="Post Image" />
+          <img src={img4} alt="Post" />
           <p>"Old God sure was in a good mood when he made this place”.</p>
           <p className="feed-link">
             <a href="https://www.instagram.com/p/Cm1IW9ypKNP/?img_index=1">Go to Instagram</a>

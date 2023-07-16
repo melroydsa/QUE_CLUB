@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
@@ -16,6 +15,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
+        <Route path="/QUE_CLUB" element={<Home/>} />
           <Route path="/" element={<Home/>} />
           <Route path="/Membership" element={<Membership/>} />
           <Route path="/Booking" element={<Booking/>} />

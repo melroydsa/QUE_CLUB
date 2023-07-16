@@ -32,7 +32,7 @@ function ImageScroll() {
       <div className="centered-container">
         <div className="carousel-box">
           <div className="carousel-container">
-            <img className="carousel-image" src={images[currentIndex]} alt="Carousel Image" />
+            <img className="carousel-image" src={images[currentIndex]} alt="Carousel" />
             <button className="carousel-button left" onClick={previousImage}>&larr;</button>
             <button className="carousel-button right" onClick={nextImage}>&rarr;</button>
           </div>

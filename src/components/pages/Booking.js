@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react';
+import React,{useState} from 'react';
 import "./Booking.css";
 import { Hero } from '../Hero';
 import BGimg from "../../Images/BG.png"
@@ -64,7 +64,7 @@ function Booking() {
     for (let i = 0; i < 7; i++) {
       const date = currentDate.getDate() + i;
       const dayIndex = (i + currentDay) % 7;
-      const dayName = getDayName(dayIndex);
+      // const dayName = getDayName(dayIndex);
 
       if (date <= daysInMonth(currentMonth, currentYear)) {
         calendarCells.push(
