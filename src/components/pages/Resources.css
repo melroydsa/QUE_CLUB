@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 {
     left: 50%;
     top: 0%;
-    transform: translate(-2%,0%);
+    transform: translate(2%,0%);
     width: 90%;
     height: fit-content;
     margin-top: 170px;

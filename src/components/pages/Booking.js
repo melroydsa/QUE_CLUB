@@ -90,7 +90,7 @@ function Booking() {
   return (
     <>
     <img id="imgBG" src={BGimg} alt="Background" />
-     <Hero MainTextOut="Book a" MainTextOth="Session" MainTextSize="6.25em" MainTextSizeM="4em" MainTextMarginTop="0.3em" MainTextMarginTopM="-7em" />
+     <Hero MainTextOth="Book a Session" MainTextSize="6.25em" MainTextSizeM="3.5em" MainTextMarginTop="0.3em" MainTextMarginTopM="-450px" />
       <table className="Calendar">
         <tbody>
           <tr>

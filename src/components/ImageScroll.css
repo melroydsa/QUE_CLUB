@@ -67,7 +67,9 @@
   {
     .centered-container
     {
-      margin-top: -400px;
+      position: absolute;
+      margin-top: -470px;
+      margin-left: 43px;
       justify-content: center;
     }
     .carousel-box

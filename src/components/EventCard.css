@@ -64,3 +64,12 @@
     color: peru;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@media screen and (max-width:550px) 
+{
+   .event-right h3.event-title
+   {
+      font-size: 1.2em;
+   }
+
+}

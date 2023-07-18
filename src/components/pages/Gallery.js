@@ -10,13 +10,13 @@ function Gallery() {
     <>
     <img id="imgBG" src={BGimg} alt="Background" />
     <div className="center-gal">
-    <Hero MainTextOth="Facilites" MainTextSize="100px" MainTextSizeM="8em" MainTextMarginTop="50px" MainTextMarginTopM="0px"/>
+    <Hero MainTextOth="Facilites" MainTextSize="100px" MainTextSizeM="8em" MainTextMarginTop="50px" MainTextMarginTopM="-450px"/>
       <ImageScroll />
-      <Hero MainTextOut="Getting" MainTextOth="Started" MainTextSize="100px" MainTextSizeM="5em" MainTextMarginTopM="-1.5em"/>
+      <Hero MainTextOut="Getting" MainTextOth="Started" MainTextSize="100px" MainTextSizeM="5em" MainTextMarginTopM="0px"/>
       <div className="centered-container1">
         <iframe className="video" src="https://www.youtube.com/embed/lDgEBIKQJI8" frameborder="0" allowfullscreen></iframe>
       </div>
-      <Hero MainTextOut="Social" MainTextOth="Media" MainTextSize="100px" MainTextSizeM="7em" MainTextMarginTopM="-240px"/>
+      <Hero MainTextOut="Social" MainTextOth="Media" MainTextSize="100px" MainTextSizeM="7em" MainTextMarginTopM="-200px"/>
       <div className="containerV">
         <div className="post">
           <div className="instagram-handle">

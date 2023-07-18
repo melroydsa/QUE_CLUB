@@ -11,7 +11,7 @@ function Resouces() {
       <Hero
         MainTextOut="Resources"
         MainTextSize="120px"
-        MainTextMarginTopM="-4em"
+        MainTextMarginTopM="-450px"
         MainTextMarginTop="50px"
         MainTextSizeM="7em"
         SubTextMarginTop="150px"

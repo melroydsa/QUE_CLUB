@@ -85,7 +85,8 @@ body::-webkit-scrollbar {
 
 @media screen and (max-width: 550px) {
     .VideoTitle {
-      max-width: 400px; 
+      max-width: 100%; 
+      width: 20%;
       overflow: hidden; 
       white-space: nowrap; 
       text-overflow: ellipsis; 
@@ -97,15 +98,15 @@ body::-webkit-scrollbar {
     {
         margin-left:5px;
         margin-top: -30px;
-        width: 210px;
+        width: 20%;
         overflow: hidden; 
         white-space: nowrap; 
         text-overflow: ellipsis; 
     }
     .VideoCard .Thumbnail
     {
-        width: 210px;
-        height: 110px;
+        width: 190px;
+        height: 90px;
         border-radius: 20px;
         margin-top: 20px;
     }
@@ -113,5 +114,6 @@ body::-webkit-scrollbar {
     {
         margin-top: 20px;
         margin-left: -10px;
+        width: 20%;
     }
   }

@@ -1,7 +1,8 @@
 .center-gal
 {
-  display: block;
+    display: block;
     justify-content: center;
+    align-items: center;
 }
 .centered-container1 {
     display: flex;
@@ -67,7 +68,7 @@
         {
           width: 400px;
           height: 300px;
-          margin-top: -300px;
+          margin-top: -150px;
         }
         .containerV
         {
@@ -75,6 +76,7 @@
         }
         .post
         {
+          margin-top: -50px;
           height: 500px;
           width: 400px;
         }

@@ -103,7 +103,7 @@
   }
   @media screen and (max-width: 550px) {
     .ForumTitle {
-      max-width: 400px; 
+      max-width: 350px; 
       overflow: hidden; 
       white-space: nowrap; 
       text-overflow: ellipsis; 
@@ -113,6 +113,6 @@
     .ForumDesc
     {
         margin-left:-5px;
-        width: 390px;
+        width: 350px;
     }
   }
