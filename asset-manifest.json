@@ -1,28 +1,36 @@
 {
   "files": {
-    "main.css": "/QUE_CLUB/static/css/main.891cec8e.css",
-    "main.js": "/QUE_CLUB/static/js/main.34706aae.js",
+    "main.css": "/QUE_CLUB/static/css/main.bfef603a.css",
+    "main.js": "/QUE_CLUB/static/js/main.0d8b0962.js",
     "static/media/Vid.mp4": "/QUE_CLUB/static/media/Vid.6c9c3f3e167c23cca575.mp4",
     "static/media/BG.png": "/QUE_CLUB/static/media/BG.48393698930ca26499ed.png",
+    "static/media/fa-solid-900.ttf": "/QUE_CLUB/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/Inter-Bold.ttf": "/QUE_CLUB/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/img4.jpg": "/QUE_CLUB/static/media/img4.f05b550632759120a853.jpg",
     "static/media/img7.jpg": "/QUE_CLUB/static/media/img7.c5220a376d7a47cd9cbd.jpg",
+    "static/media/fa-brands-400.ttf": "/QUE_CLUB/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/img2.jpg": "/QUE_CLUB/static/media/img2.0e73344aa45fab497726.jpg",
+    "static/media/fa-solid-900.woff2": "/QUE_CLUB/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
     "static/media/img6.jpg": "/QUE_CLUB/static/media/img6.fcf06319707c96190c6c.jpg",
     "static/media/imgg2.jpg": "/QUE_CLUB/static/media/imgg2.4e6ff3f370d31bd5aaf6.jpg",
     "static/media/img5.jpg": "/QUE_CLUB/static/media/img5.8a166c347d1c2ea2ba48.jpg",
+    "static/media/fa-brands-400.woff2": "/QUE_CLUB/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
     "static/media/Oswald-Bold.ttf": "/QUE_CLUB/static/media/Oswald-Bold.87c9feafd7b2f3fd7992.ttf",
+    "static/media/fa-regular-400.ttf": "/QUE_CLUB/static/media/fa-regular-400.d87474231f4192884802.ttf",
     "static/media/imgg4.jpg": "/QUE_CLUB/static/media/imgg4.f2dd1f836d151c1df78a.jpg",
     "static/media/thumbnail.jpg": "/QUE_CLUB/static/media/thumbnail.91d9bc0b4ec03384e478.jpg",
     "static/media/img3.jpg": "/QUE_CLUB/static/media/img3.d36f16d4dd721b98a89f.jpg",
     "static/media/MedulaOne-Regular.ttf": "/QUE_CLUB/static/media/MedulaOne-Regular.d798d79afd026279ed9d.ttf",
     "static/media/Queue_Logo.png": "/QUE_CLUB/static/media/Queue_Logo.5109c84b1627bc2d72ab.png",
+    "static/media/fa-regular-400.woff2": "/QUE_CLUB/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/QUE_CLUB/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/QUE_CLUB/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/QUE_CLUB/index.html",
-    "main.891cec8e.css.map": "/QUE_CLUB/static/css/main.891cec8e.css.map",
-    "main.34706aae.js.map": "/QUE_CLUB/static/js/main.34706aae.js.map"
+    "main.bfef603a.css.map": "/QUE_CLUB/static/css/main.bfef603a.css.map",
+    "main.0d8b0962.js.map": "/QUE_CLUB/static/js/main.0d8b0962.js.map"
   },
   "entrypoints": [
-    "static/css/main.891cec8e.css",
-    "static/js/main.34706aae.js"
+    "static/css/main.bfef603a.css",
+    "static/js/main.0d8b0962.js"
   ]
 }
