@@ -7,7 +7,6 @@
     width: 100vw;
     height: fit-content;
     font-family:'Medula';
-    font-size: 100px;
 }
 .Hero .HeroT
 {
@@ -15,8 +14,6 @@
     top: 100%;
     left: 50%;
     transform: translate(-50%,-50%);
-    /* margin-top: 200px; */
-    /* font-size: 200px; */
     font-family: 'Medula';
     font-style: normal;
     font-weight: 400;
@@ -41,17 +38,41 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    /* margin-top: 250px; */
     display: flex;
-    width: 900px;
-    height: 88px;
+    width: fit-content;
+    height: fit-content;
     flex-direction: column;
     flex-shrink: 0;
     color: #FFF;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.3em;
     font-family: 'Medula';
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+@media screen and (max-width: 550px) {
+    .Hero
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .Hero .HeroT {
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 10em;
+        margin-top: 120px;
+        margin-bottom: 120px;
+      }
+    
+      .Hero .HeroP p {
+        font-size: 2em;
+        width: 440px;
+        margin-top: 250px;
+      }
+    
+    
 }

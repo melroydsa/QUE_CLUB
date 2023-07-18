@@ -1,9 +1,15 @@
+.center-gal
+{
+  display: block;
+    justify-content: center;
+}
 .centered-container1 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
-    margin-top: -50px;
+    margin-top: 1em;
+    margin-bottom: 2em;
     padding-bottom: 30px;
   }
   .video {
@@ -17,7 +23,7 @@
     align-items: center;
     height: 100vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 120px;
+    margin-top: 13em;
   }
 
   .post{
@@ -54,4 +60,26 @@
       z-index: -1;
       opacity: 0.4;
       
+    }
+    @media screen and (max-width:550px) 
+    {
+        .video
+        {
+          width: 400px;
+          height: 300px;
+          margin-top: -300px;
+        }
+        .containerV
+        {
+          margin-top: -8em;
+        }
+        .post
+        {
+          height: 500px;
+          width: 400px;
+        }
+        .insPost
+        {
+          width: 350px;
+        }
     }

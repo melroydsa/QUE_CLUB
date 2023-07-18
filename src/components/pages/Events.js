@@ -8,7 +8,7 @@ function Events() {
   return (
     <>
       <img id="imgBG" src={BGimg} alt="Background" />
-        <Hero MainTextOut="Upcoming" MainTextOth="Events" MainTextSize="100px"/>
+        <Hero MainTextOut="Upcoming" MainTextOth="Events" MainTextSize="100px" MainTextSizeM="5em" MainTextMarginTopM="-5.5em"/>
         <div className="Containerr">
             <h3 className="year">2023</h3>
             <EventCard/>

@@ -9,13 +9,14 @@ function Gallery() {
   return (
     <>
     <img id="imgBG" src={BGimg} alt="Background" />
-      <Hero MainTextOth="Facilites" MainTextSize="100px" MainTextMarginTop="50px" />
+    <div className="center-gal">
+    <Hero MainTextOth="Facilites" MainTextSize="100px" MainTextSizeM="8em" MainTextMarginTop="50px" MainTextMarginTopM="0px"/>
       <ImageScroll />
-      <Hero MainTextOut="Getting" MainTextOth="Started" MainTextSize="100px" />
+      <Hero MainTextOut="Getting" MainTextOth="Started" MainTextSize="100px" MainTextSizeM="5em" MainTextMarginTopM="-1.5em"/>
       <div className="centered-container1">
         <iframe className="video" src="https://www.youtube.com/embed/lDgEBIKQJI8" frameborder="0" allowfullscreen></iframe>
       </div>
-      <Hero MainTextOut="Social" MainTextOth="Media" MainTextSize="100px" />
+      <Hero MainTextOut="Social" MainTextOth="Media" MainTextSize="100px" MainTextSizeM="7em" MainTextMarginTopM="-240px"/>
       <div className="containerV">
         <div className="post">
           <div className="instagram-handle">
@@ -23,13 +24,14 @@ function Gallery() {
             <i className="fab fa-instagram instagram-icon"></i>
             <a href="https://www.instagram.com/the.queclub/">the.queclub</a>
           </div>
-          <img src={img4} alt="Post" />
+          <img src={img4} alt="Post" className='insPost'/>
           <p>"Old God sure was in a good mood when he made this place”.</p>
           <p className="feed-link">
             <a href="https://www.instagram.com/p/Cm1IW9ypKNP/?img_index=1">Go to Instagram</a>
           </p>
         </div>
       </div>
+    </div>
     </>
   );
 }

@@ -9,9 +9,12 @@
     opacity: 0.4;
     
   }
-  
+  body
+  {
+    justify-content: center;
+  }
   body::-webkit-scrollbar {
-      width: 0.5em;
+      width: 0;
     }
     
     body::-webkit-scrollbar-track {
@@ -48,4 +51,14 @@
     z-index: -1;
     opacity: 0.4;
     
+  }
+  @media screen and (max-width:550px) 
+  {
+    .ContainerForum
+    {
+      margin-top: -390px;
+      left: 50%;
+      top: 0%;
+      transform: translate(-2%,0%);
+    }     
   }

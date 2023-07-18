@@ -6,22 +6,28 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    opacity: 0.5;
-    
+    opacity: 0.5; 
   }
-  .parent-container {
+  .center-container
+  {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
     align-items: center;
+    width: fit-content;
+    height: fit-content;
   }
   .BeAMem
   {
       position: absolute;
       padding: 20px;
-      position: absolute;
-      top: 75%;
+      /* top: 80%; */
       left: 50%;
       transform: translate(-50%, -50%);
+      margin-top: 5em;
       padding-left: 50px;
       padding-right: 50px;
       background: transparent;
@@ -29,7 +35,7 @@
       border: 4px solid #30D5C8;
       border-radius: 20px;
       color: white;
-      font-size: 70px;
+      font-size: 4.3em;
       font-family: 'Medula';
       font-style: normal;
       font-weight: 400;
@@ -42,3 +48,22 @@
       background-color: #30D5C8;
       color: black;
   } 
+  @media screen and (max-width:550px) 
+  {
+    #video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 107%;
+      object-fit: cover;
+      z-index: -1;
+      opacity: 0.5; 
+    }  
+    .BeAMem {
+      width: 350px;
+      font-size: 3em;
+      padding: 12px 42px;
+      margin-top: 400px;
+    }
+  }

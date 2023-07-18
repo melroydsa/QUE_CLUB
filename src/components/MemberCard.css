@@ -1,15 +1,12 @@
 .Card
 {
-    /* top: 0%; */
-    /* left: 50%; */
     display: block;
-    /* transform: translate(-50%,10%); */
     color: gold;
     font-family: 'Medula';
     background-color: #d4d4d4;
-    width: 300px;
-    margin-top: 120px;
-    height: 350px;
+    width: 19em;
+    margin-top: 13em;
+    height: 22em;
     padding: 0px 20px;
     border: 3px solid #30D5C8;
     border-radius: 20px;
@@ -20,6 +17,7 @@
 .Card:hover
 {
     border: 4px solid white;
+    background-color: black;
 }
 .Card h1
 {
@@ -27,7 +25,7 @@
     top: 0%;
     left: 50%;
     transform: translate(-50%,0%);
-    font-size: 44px;
+    font-size: 2.7em;
 }
 .Card .line
 {
@@ -67,10 +65,10 @@
     left: 50%;
     color: white;
     transform: translate(-50%,0%);   
-    margin-top:270px;
+    margin-top:7.5em;
     font-family: 'Medula';
     padding: 5px 20px;
-    font-size:40px;
+    font-size:2.3em;
     border: 2px solid gold;
     border-radius:7px;
     background:transparent;
@@ -80,4 +78,13 @@
 {
     background-color: gold;
     color: black;
+}
+
+@media screen and (max-width:550px) 
+{
+    .Card
+    {
+        margin-top: -20em;
+    }
+    
 }

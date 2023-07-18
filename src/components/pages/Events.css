@@ -27,3 +27,12 @@
     opacity: 0.4;
     
   }
+  @media screen and (max-width:550px) 
+  {
+        .Containerr
+        {
+            width: fit-content;
+            margin-top: -400px;
+            justify-content: center;
+        }     
+  }

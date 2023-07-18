@@ -9,9 +9,11 @@ function Home() {
         <video id="video-bg" autoPlay muted loop>
             <source src={vid} type="video/mp4" />
         </video>
-        <Hero MainTextOut="Queue" MainTextOth="Club" SubText="Escape to a World of Refined Leisure: Discover the Perfect Shot at the Queue Club" MainTextSize="200px" MainTextMarginTop="150px" SubTextMarginTop="320px"/>
-        <div className='parent'>
-        <button className="BeAMem">Become a Member</button>
+        <div className='center-container'>
+          <Hero MainTextOut="Queue" MainTextOth="Club" SubText="Escape to a World of Refined Leisure: Discover the Perfect Shot at the Queue Club" MainTextSize="12.5em" MainTextMarginTop="0.4em" SubTextMarginTop="6em"/>
+          <div className='parent'>
+          <button className="BeAMem">Become a Member</button>
+          </div>
         </div>
     </>
   )

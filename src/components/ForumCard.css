@@ -60,16 +60,6 @@
     background-color: #30D5C8;
     color: black;
 }
-/* .ForumLink a
-{
-    text-decoration: none;
-    color: white;
-    transition: ease-in-out all 0.4s;
-}
-.ForumLink a:hover
-{
-    color: black;
-} */
 .line
 {
   position: relative;
@@ -110,4 +100,19 @@
     margin-left: 15px;
     content: "\00a0"; /* Add a non-breaking space */
     margin-left: 20px; /* Adjust the desired space between the sentences */
+  }
+  @media screen and (max-width: 550px) {
+    .ForumTitle {
+      max-width: 400px; 
+      overflow: hidden; 
+      white-space: nowrap; 
+      text-overflow: ellipsis; 
+      margin-top: 40px;
+      margin-left: 10px;
+    }
+    .ForumDesc
+    {
+        margin-left:-5px;
+        width: 390px;
+    }
   }

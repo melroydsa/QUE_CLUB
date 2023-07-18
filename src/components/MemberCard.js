@@ -11,7 +11,7 @@ export const MemberCard = ({ Tier, Price, Benefits, Color, PositionL,PositionT,T
   };
 
   return (
-    <div className="Card" style={{left: PositionL,top:PositionT,transform: "translate(-50%,10%)"}}>
+    <div className="Card" >
       <h1 style={{ color: Color }}>{Tier}</h1>
       <div className="line"></div>
       <h2>{Price}</h2>   

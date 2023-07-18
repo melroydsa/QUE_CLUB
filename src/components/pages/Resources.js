@@ -11,8 +11,9 @@ function Resouces() {
       <Hero
         MainTextOut="Resources"
         MainTextSize="120px"
+        MainTextMarginTopM="-4em"
         MainTextMarginTop="50px"
-        SubText="Dive Into Our World of Billiards: Explore Our Premier Pool and Snooker Facilities"
+        MainTextSizeM="7em"
         SubTextMarginTop="150px"
       />
       <div className="Container">

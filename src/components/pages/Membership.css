@@ -19,3 +19,26 @@ body {
     width: 0;
     height: 0;
   }
+  .Card-centered-container {
+    display: flex;
+    justify-content: center;
+
+  }
+  .Gap
+  {
+    margin-right: 100px;
+  }
+
+  @media screen and (max-width:550px) 
+  {
+    .Card-centered-container {
+      flex-direction: column; /* Stack the MemberCards vertically */
+      align-items: center; /* Center the MemberCards horizontally */
+      width: 100%;
+    }
+  
+    .Gap {
+      margin-right: 0; 
+      margin-top: 350px;
+    }
+  }

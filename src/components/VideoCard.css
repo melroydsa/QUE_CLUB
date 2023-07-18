@@ -73,16 +73,7 @@ body::-webkit-scrollbar {
     background-color: #30D5C8;
     color: black;
 }
-/* .VideoLink a
-{
-    text-decoration: none;
-    color: white;
-    transition: ease-in-out all 0.4s;
-}
-.VideoLink a:hover
-{
-    color: black;
-} */
+
 .line
 {
   position: relative;
@@ -91,3 +82,36 @@ body::-webkit-scrollbar {
   width: 100%;
   background-color: #30D5C8;
 }
+
+@media screen and (max-width: 550px) {
+    .VideoTitle {
+      max-width: 400px; 
+      overflow: hidden; 
+      white-space: nowrap; 
+      text-overflow: ellipsis; 
+      margin-top: 35px;
+      margin-left: 10px;
+      font-size: 2.5em;
+    }
+    .VideoDesc
+    {
+        margin-left:5px;
+        margin-top: -30px;
+        width: 210px;
+        overflow: hidden; 
+        white-space: nowrap; 
+        text-overflow: ellipsis; 
+    }
+    .VideoCard .Thumbnail
+    {
+        width: 210px;
+        height: 110px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .VideoLink
+    {
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+  }
